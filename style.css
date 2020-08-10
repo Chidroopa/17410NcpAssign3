@@ -1,0 +1,37 @@
+#div1
+{
+position:absolute;
+padding:20px;
+right:50px;
+top:50px;
+width:25%;
+}
+
+#div2
+{
+    position:absolute;
+    padding:20px;
+    right:50px;
+    top:200px;
+    width:25%;  
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+  }
+body{
+    background-image: url("download.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: blanchedalmond;
+}
+
+
+#div3
+{
+    position: absolute;
+    top: 10px;
+    right:50px;
+    width:25%;
+}
