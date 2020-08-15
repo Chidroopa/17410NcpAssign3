@@ -6,11 +6,12 @@ img{
 h1{
     color:red;
     float:left;
+    clear:right;
 }
 
-marquee
+#m1
 {
-clear:both;
+   float:left;
 font-weight:bolder;
 font-size:xx-large; 
 font-variant: small-caps; 
@@ -21,5 +22,12 @@ width:40%;
 p
 {
     clear:both;
+    width:40%;
+}
+
+ul
+{
+    list-style-type: square;
+    background-color: violet;
     width:40%;
 }
