@@ -1,0 +1,25 @@
+img{
+    width: 100px;
+    height: 100px; 
+    float:left
+}
+h1{
+    color:red;
+    float:left;
+}
+
+marquee
+{
+clear:both;
+font-weight:bolder;
+font-size:xx-large; 
+font-variant: small-caps; 
+font-stretch: extra-expanded;
+width:40%;
+}
+
+p
+{
+    clear:both;
+    width:40%;
+}
