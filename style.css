@@ -17,14 +17,16 @@ width:25%;
 }
 
 table, th, td {
-    border: 1px solid black;
+    border: 3px solid black;
     border-collapse: collapse;
+    border-style: dashed;
   }
 body{
     background-image: url("download.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-color: blanchedalmond;
+    font-family: 'Raleway', sans-serif; 
 }
 
 
@@ -34,4 +36,31 @@ body{
     top: 10px;
     right:50px;
     width:25%;
+}
+
+p
+{
+    font-style: italic;
+}
+
+a:hover
+{
+    color:red;
+}
+
+q {
+    quotes: "“" "”";
+  }
+
+  q::before {
+    content: open-quote;
+}
+q::after {
+    content: close-quote;
+}
+
+caption{
+    caption-side: top;
+    font-weight: bold;
+    color:red;
 }
